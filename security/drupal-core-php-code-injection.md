@@ -8,9 +8,7 @@ categories: security
 
 ## Drupal Overview and History
 
-Drupal is a content management system used by 6% of the top 10,000 websites ([source](https://trends.builtwith.com/shop/open-source/traffic/Top-10k)). It is particularly popular in government, and as of 2021 it was used by [56% of the world's government websites](https://www.acquia.com/blog/drupal-for-government).
-
-In March of 2018, a vulnerability dubbed Drupalgeddon2 was announced ([CVE-2018-7600](https://nvd.nist.gov/vuln/detail/cve-2018-7600), [SA-CORE-2018-002](https://www.drupal.org/sa-core-2018-002)) that enabled an unauthenticated attacker to achieve remote code execution on most versions of Drupal with default configuration.
+Drupal is a content management system. In March of 2018, a vulnerability dubbed Drupalgeddon2 was announced ([CVE-2018-7600](https://nvd.nist.gov/vuln/detail/cve-2018-7600), [SA-CORE-2018-002](https://www.drupal.org/sa-core-2018-002)) that enabled an unauthenticated attacker to achieve remote code execution on most versions of Drupal with default configuration.
 
 The vulnerability was caused by Drupal's [render arrays](https://www.drupal.org/docs/drupal-apis/render-api/render-arrays). Render arrays are just ordinary PHP arrays, except that keys that start with # are given special processing that allow code execution by design. These generally aren't meant to come from user input, so the Drupal maintainers patched this by implementing a broad [RequestSanitizer](https://github.com/drupal/drupal/blob/8.6.1/core/lib/Drupal/Core/Security/RequestSanitizer.php). The sanitizer runs early in the page load and strips array keys that begin with # from the query string.
 
