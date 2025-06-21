@@ -4,8 +4,6 @@ title: Drupal Core PHP Code Injection
 categories: security
 ---
 
-# Drupal Core PHP Code Injection
-
 ## Drupal Overview and History
 
 Drupal is a content management system. In March of 2018, a vulnerability dubbed Drupalgeddon2 was announced ([CVE-2018-7600](https://nvd.nist.gov/vuln/detail/cve-2018-7600), [SA-CORE-2018-002](https://www.drupal.org/sa-core-2018-002)) that enabled an unauthenticated attacker to achieve remote code execution on most versions of Drupal with default configuration.

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: A Blog
 ---
 
 ## Security Research and Writeups
