@@ -4,8 +4,6 @@ title: Solr Query Injection
 categories: security
 ---
 
-# Solr Query Injection
-
 [Apache Solr](https://solr.apache.org/) is a NoSQL datastore that is typically used as an enterprise search platform.
 
 Most resources on Solr injection seem to be about CVEs or [injecting additional parameters](https://github.com/veracode-research/solr-injection) into calls to the Solr REST API. This post covers some techniques you can use when you only have control over the q parameter and are interested in extracting data from the index itself.
