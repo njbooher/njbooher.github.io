@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Drupal Core PHP Code Injection
 categories: security
 ---

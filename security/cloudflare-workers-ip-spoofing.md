@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Cloudflare Workers IP Spoofing
 categories: security
 ---

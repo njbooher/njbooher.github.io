@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Solr Query Injection
 categories: security
 ---

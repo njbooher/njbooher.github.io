@@ -1,5 +1,4 @@
-theme: jekyll-theme-cayman
 title: Nick Booher
 description: Security research and other things.
-show_downloads: false
 google_analytics:
+theme: jekyll-theme-cayman
