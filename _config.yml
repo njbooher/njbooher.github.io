@@ -1,28 +1,4 @@
-theme: minima
+theme: cayman
 description: Security research and other things.
-show_excerpts: false
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Social Media Links
-# Renders icons via Font Awesome Free webfonts CDN, based on ordered list of entries.
-#
-# Entry keys:
-# * title    Tooltip rendered on hovering over icon.
-# * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
-# * url      Full URL of social profile.
-social_links:
- - title: LinkedIn
-   icon: linkedin
-   url: "https://www.linkedin.com/in/njbooher"
- - title: GitHub
-   icon: github
-   url: "https://github.com/njbooher"
- - title: HackerOne
-   icon: user
-   url: "https://hackerone.com/njbooher2"
- - title: Synack
-   icon: user
-   url: "https://acropolis.synack.com/inductees/njbooher"
+show_downloads: false
+google_analytics:
