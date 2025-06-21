@@ -8,7 +8,7 @@ layout: default
 
 Apache Solr is a NoSQL datastore that is typically used as an enterprise search platform. Most resources on Solr injection seem to be about CVEs or injecting additional parameters into calls to the Solr REST API. I discovered several techniques to extract data with only the query term parameter.
 
-### [Cloudflare-wide IP spoofing](/security/cloudflare-workers-ip-spoofing)
+### [Cloudflare Workers IP Spoofing](/security/cloudflare-workers-ip-spoofing)
 
 A vulnerability in Cloudflare Workers, a server-less edge computing service, allowed the worker to use your IP address when making requests to other sites behind Cloudflare, bypassing firewall rules.
 
