@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: home
 ---
+
+# Home
 
 ## Security Research and Writeups
 
