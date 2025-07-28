@@ -13,6 +13,10 @@ Apache Solr is a NoSQL datastore that is typically used as an enterprise search 
 
 A vulnerability in Cloudflare Workers, a server-less edge computing service, allowed the worker to use your IP address when making requests to other sites behind Cloudflare, bypassing firewall rules.
 
+### [Highlights From Hacking Steam](/security/steam-highlights)
+
+I spent a lot of time from 2019-2021 hacking on Steam. This article has some of the highlights.
+
 ### [Drupal core PHP code injection](/security/drupal-core-php-code-injection)
 
 The Drupal core Contextual Links module didn't sufficiently validate the requested contextual links. This allowed a render array to be injected, enabling an attacker to execute arbitrary PHP code.
