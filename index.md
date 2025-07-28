@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A Website
+title: Nick Booher
 ---
 
 ## Security Research and Writeups
