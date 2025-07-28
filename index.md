@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Application Security
+title: Average Computer Hacking
 ---
 
 ## Security Research and Writeups
