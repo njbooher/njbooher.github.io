@@ -12,9 +12,9 @@ I spent a lot of time from 2019-2021 hacking on Steam. This article has some of 
 
 Insufficient validation of parameters allowed injecting shell metacharacters into values used by the backend in a Bash command.
 
-* https://hackerone.com/reports/840243
-* https://hackerone.com/reports/926169
-* https://hackerone.com/reports/949361
+* [https://hackerone.com/reports/840243](https://hackerone.com/reports/840243)
+* [https://hackerone.com/reports/926169](https://hackerone.com/reports/926169)
+* [https://hackerone.com/reports/949361](https://hackerone.com/reports/949361)
 
 ### [PHP code injection on Steamworks financial reporting site](https://hackerone.com/reports/518348)
 
