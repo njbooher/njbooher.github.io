@@ -57,11 +57,10 @@ However, when a Cloudflare worker makes a request to a site protected by Cloudfl
 
 Thanks to this bug, if you made any request to my Cloudflare worker, even through an image embedded on a page, my worker could then make requests to any other site behind Cloudflare and pretend to have your IP address.
 
-Some sites may make additional functionality available to users from specific IP addresses. Using the [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works) data store, I could cache the response to the sub-request to check for that.
+On a particular bug bounty program, debug functionality is available to specific IP addresses. I was able to point a blind SSRF bug at a Cloudflare worker exploiting this bug, and use the [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works) data store to cache responses. This enabled me explore the debug functionality in depth.
 
 ## Timeline
 * June 17, 2020 09:45 AM - Reported to Cloudflare
 * June 17, 2020 10:04 AM - Acknowledged by Cloudflare
 * June 19, 2020 - Bounty received from Cloudflare
 * June 24, 2020 - Fix committed by Cloudflare and deployed globally
-* January 5, 2021 - Published with approval of Cloudflare
