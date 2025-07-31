@@ -3,6 +3,12 @@ layout: default
 title: Average Computer Hacking
 ---
 
+## Software
+
+### [pokedex](https://github.com/njbooher/pokedex)
+
+App for taking notes during security testing.
+
 ## Security Research and Writeups
 
 ### [Solr Query Injection](/security/solr-query-injection)
@@ -30,9 +36,3 @@ The Drupal core File module allowed an attacker to gain access to the file metad
 ### [Tripal BLAST UI shell code injection](https://www.drupal.org/forum/newsletters/security-advisories-for-contributed-projects/2016-10-26/tripal-blast-ui-highly)
 
 The Tripal Blast UI module didn't sufficiently validate advanced options available to users submitting BLAST jobs, thereby exposing the ability to enter a short snippet of shell code that would execute when the BLAST job was run.
-
-## Software
-
-### [pokedex](https://github.com/njbooher/pokedex)
-
-An app I developed for taking notes during security testing.
