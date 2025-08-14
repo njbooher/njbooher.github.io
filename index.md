@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Average Computer Hacking
+title: Average Computer Hacker
 ---
 
 ## Software
