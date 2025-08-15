@@ -17,7 +17,7 @@ Apache Solr is a NoSQL datastore that is typically used as an enterprise search 
 
 ### [Cloudflare Workers IP Spoofing](/security/cloudflare-workers-ip-spoofing)
 
-A vulnerability in Cloudflare Workers, a server-less edge computing service, allowed the worker to use your IP address when making requests to other sites behind Cloudflare, bypassing firewall rules.
+A vulnerability in Cloudflare Workers, a server-less edge computing service, allowed the worker to use your IP address when making requests to other sites behind Cloudflare.
 
 ### [Highlights From Hacking Steam](/security/steam-highlights)
 
