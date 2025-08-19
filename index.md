@@ -1,13 +1,7 @@
 ---
-layout: default
-title: Average Computer Hacker
+layout: index
+title: Nick Booher
 ---
-
-## Software
-
-### [pokedex](https://github.com/njbooher/pokedex)
-
-App for taking notes during security testing.
 
 ## Security Research and Writeups
 
